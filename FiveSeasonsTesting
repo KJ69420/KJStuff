@@ -515,7 +515,7 @@ local function createFistModel()
     end
 
     -- Position the fist model high in the sky above the character
-    local skyHeight = 100 -- YOU can change this to whatever u want lol
+    local skyHeight = 10 -- YOU can change this to whatever u want lol
     fistModel:SetPrimaryPartCFrame(LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0, skyHeight, 0))
 
     -- Animate the fist model

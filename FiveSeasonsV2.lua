@@ -111,6 +111,535 @@ local Players = game:GetService("Players")
 			wait(2)
 			HandFire:Destroy()
 		end)
+
+local r = game.ReplicatedStorage
+local a = r:WaitForChild("Resources")
+local b = a:WaitForChild("FiveSeasonsFX")
+local m = b:WaitForChild("HandFire"):Clone()
+local plr = game.Players.LocalPlayer
+local char = plr.Character or plr.CharacterAdded:Wait()
+local torso = char:WaitForChild("Left Arm")
+
+m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
+m.Parent = workspace
+
+for _, p in ipairs(m:GetDescendants()) do
+    if p:IsA("BasePart") then
+        for _, a in ipairs(p:GetDescendants()) do
+            if a:IsA("Attachment") then
+                for _, pe in ipairs(a:GetDescendants()) do
+                    if pe:IsA("ParticleEmitter") then
+                        pe:Emit(1)
+                    end
+                end
+            end
+        end
+        
+        for _, pe in ipairs(p:GetDescendants()) do
+            if pe:IsA("ParticleEmitter") then
+                pe:Emit(0)
+            end
+        end
+    end
+end
+wait(0.1)
+local r = game.ReplicatedStorage
+local a = r:WaitForChild("Resources")
+local b = a:WaitForChild("FiveSeasonsFX")
+local m = b:WaitForChild("HandFire"):Clone()
+local plr = game.Players.LocalPlayer
+local char = plr.Character or plr.CharacterAdded:Wait()
+local torso = char:WaitForChild("Left Arm")
+
+m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
+m.Parent = workspace
+
+for _, p in ipairs(m:GetDescendants()) do
+    if p:IsA("BasePart") then
+        for _, a in ipairs(p:GetDescendants()) do
+            if a:IsA("Attachment") then
+                for _, pe in ipairs(a:GetDescendants()) do
+                    if pe:IsA("ParticleEmitter") then
+                        pe:Emit(1)
+                    end
+                end
+            end
+        end
+        
+        for _, pe in ipairs(p:GetDescendants()) do
+            if pe:IsA("ParticleEmitter") then
+                pe:Emit(0)
+            end
+        end
+    end
+end
+wait(0.1)
+local r = game.ReplicatedStorage
+local a = r:WaitForChild("Resources")
+local b = a:WaitForChild("FiveSeasonsFX")
+local m = b:WaitForChild("HandFire"):Clone()
+local plr = game.Players.LocalPlayer
+local char = plr.Character or plr.CharacterAdded:Wait()
+local torso = char:WaitForChild("Left Arm")
+
+m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
+m.Parent = workspace
+
+for _, p in ipairs(m:GetDescendants()) do
+    if p:IsA("BasePart") then
+        for _, a in ipairs(p:GetDescendants()) do
+            if a:IsA("Attachment") then
+                for _, pe in ipairs(a:GetDescendants()) do
+                    if pe:IsA("ParticleEmitter") then
+                        pe:Emit(1)
+                    end
+                end
+            end
+        end
+        
+        for _, pe in ipairs(p:GetDescendants()) do
+            if pe:IsA("ParticleEmitter") then
+                pe:Emit(0)
+            end
+        end
+    end
+end
+wait(0.1)
+local r = game.ReplicatedStorage
+local a = r:WaitForChild("Resources")
+local b = a:WaitForChild("FiveSeasonsFX")
+local m = b:WaitForChild("HandFire"):Clone()
+local plr = game.Players.LocalPlayer
+local char = plr.Character or plr.CharacterAdded:Wait()
+local torso = char:WaitForChild("Left Arm")
+
+m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
+m.Parent = workspace
+
+for _, p in ipairs(m:GetDescendants()) do
+    if p:IsA("BasePart") then
+        for _, a in ipairs(p:GetDescendants()) do
+            if a:IsA("Attachment") then
+                for _, pe in ipairs(a:GetDescendants()) do
+                    if pe:IsA("ParticleEmitter") then
+                        pe:Emit(1)
+                    end
+                end
+            end
+        end
+        
+        for _, pe in ipairs(p:GetDescendants()) do
+            if pe:IsA("ParticleEmitter") then
+                pe:Emit(0)
+            end
+        end
+    end
+end
+wait(0.1)
+local r = game.ReplicatedStorage
+local a = r:WaitForChild("Resources")
+local b = a:WaitForChild("FiveSeasonsFX")
+local m = b:WaitForChild("HandFire"):Clone()
+local plr = game.Players.LocalPlayer
+local char = plr.Character or plr.CharacterAdded:Wait()
+local torso = char:WaitForChild("Left Arm")
+
+m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
+m.Parent = workspace
+
+for _, p in ipairs(m:GetDescendants()) do
+    if p:IsA("BasePart") then
+        for _, a in ipairs(p:GetDescendants()) do
+            if a:IsA("Attachment") then
+                for _, pe in ipairs(a:GetDescendants()) do
+                    if pe:IsA("ParticleEmitter") then
+                        pe:Emit(1)
+                    end
+                end
+            end
+        end
+        
+        for _, pe in ipairs(p:GetDescendants()) do
+            if pe:IsA("ParticleEmitter") then
+                pe:Emit(0)
+            end
+        end
+    end
+end
+wait(0.1)
+local r = game.ReplicatedStorage
+local a = r:WaitForChild("Resources")
+local b = a:WaitForChild("FiveSeasonsFX")
+local m = b:WaitForChild("HandFire"):Clone()
+local plr = game.Players.LocalPlayer
+local char = plr.Character or plr.CharacterAdded:Wait()
+local torso = char:WaitForChild("Left Arm")
+
+m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
+m.Parent = workspace
+
+for _, p in ipairs(m:GetDescendants()) do
+    if p:IsA("BasePart") then
+        for _, a in ipairs(p:GetDescendants()) do
+            if a:IsA("Attachment") then
+                for _, pe in ipairs(a:GetDescendants()) do
+                    if pe:IsA("ParticleEmitter") then
+                        pe:Emit(1)
+                    end
+                end
+            end
+        end
+        
+        for _, pe in ipairs(p:GetDescendants()) do
+            if pe:IsA("ParticleEmitter") then
+                pe:Emit(0)
+            end
+        end
+    end
+end
+wait(0.1)
+local r = game.ReplicatedStorage
+local a = r:WaitForChild("Resources")
+local b = a:WaitForChild("FiveSeasonsFX")
+local m = b:WaitForChild("HandFire"):Clone()
+local plr = game.Players.LocalPlayer
+local char = plr.Character or plr.CharacterAdded:Wait()
+local torso = char:WaitForChild("Left Arm")
+
+m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
+m.Parent = workspace
+
+for _, p in ipairs(m:GetDescendants()) do
+    if p:IsA("BasePart") then
+        for _, a in ipairs(p:GetDescendants()) do
+            if a:IsA("Attachment") then
+                for _, pe in ipairs(a:GetDescendants()) do
+                    if pe:IsA("ParticleEmitter") then
+                        pe:Emit(1)
+                    end
+                end
+            end
+        end
+        
+        for _, pe in ipairs(p:GetDescendants()) do
+            if pe:IsA("ParticleEmitter") then
+                pe:Emit(0)
+            end
+        end
+    end
+end
+wait(0.1)
+local r = game.ReplicatedStorage
+local a = r:WaitForChild("Resources")
+local b = a:WaitForChild("FiveSeasonsFX")
+local m = b:WaitForChild("HandFire"):Clone()
+local plr = game.Players.LocalPlayer
+local char = plr.Character or plr.CharacterAdded:Wait()
+local torso = char:WaitForChild("Left Arm")
+
+m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
+m.Parent = workspace
+
+for _, p in ipairs(m:GetDescendants()) do
+    if p:IsA("BasePart") then
+        for _, a in ipairs(p:GetDescendants()) do
+            if a:IsA("Attachment") then
+                for _, pe in ipairs(a:GetDescendants()) do
+                    if pe:IsA("ParticleEmitter") then
+                        pe:Emit(1)
+                    end
+                end
+            end
+        end
+        
+        for _, pe in ipairs(p:GetDescendants()) do
+            if pe:IsA("ParticleEmitter") then
+                pe:Emit(0)
+            end
+        end
+    end
+end
+wait(0.1)
+local r = game.ReplicatedStorage
+local a = r:WaitForChild("Resources")
+local b = a:WaitForChild("FiveSeasonsFX")
+local m = b:WaitForChild("HandFire"):Clone()
+local plr = game.Players.LocalPlayer
+local char = plr.Character or plr.CharacterAdded:Wait()
+local torso = char:WaitForChild("Left Arm")
+
+m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
+m.Parent = workspace
+
+for _, p in ipairs(m:GetDescendants()) do
+    if p:IsA("BasePart") then
+        for _, a in ipairs(p:GetDescendants()) do
+            if a:IsA("Attachment") then
+                for _, pe in ipairs(a:GetDescendants()) do
+                    if pe:IsA("ParticleEmitter") then
+                        pe:Emit(1)
+                    end
+                end
+            end
+        end
+        
+        for _, pe in ipairs(p:GetDescendants()) do
+            if pe:IsA("ParticleEmitter") then
+                pe:Emit(0)
+            end
+        end
+    end
+end
+wait(0.1)
+local r = game.ReplicatedStorage
+local a = r:WaitForChild("Resources")
+local b = a:WaitForChild("FiveSeasonsFX")
+local m = b:WaitForChild("HandFire"):Clone()
+local plr = game.Players.LocalPlayer
+local char = plr.Character or plr.CharacterAdded:Wait()
+local torso = char:WaitForChild("Left Arm")
+
+m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
+m.Parent = workspace
+
+for _, p in ipairs(m:GetDescendants()) do
+    if p:IsA("BasePart") then
+        for _, a in ipairs(p:GetDescendants()) do
+            if a:IsA("Attachment") then
+                for _, pe in ipairs(a:GetDescendants()) do
+                    if pe:IsA("ParticleEmitter") then
+                        pe:Emit(1)
+                    end
+                end
+            end
+        end
+        
+        for _, pe in ipairs(p:GetDescendants()) do
+            if pe:IsA("ParticleEmitter") then
+                pe:Emit(0)
+            end
+        end
+    end
+end
+wait(0.1)
+local r = game.ReplicatedStorage
+local a = r:WaitForChild("Resources")
+local b = a:WaitForChild("FiveSeasonsFX")
+local m = b:WaitForChild("HandFire"):Clone()
+local plr = game.Players.LocalPlayer
+local char = plr.Character or plr.CharacterAdded:Wait()
+local torso = char:WaitForChild("Left Arm")
+
+m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
+m.Parent = workspace
+
+for _, p in ipairs(m:GetDescendants()) do
+    if p:IsA("BasePart") then
+        for _, a in ipairs(p:GetDescendants()) do
+            if a:IsA("Attachment") then
+                for _, pe in ipairs(a:GetDescendants()) do
+                    if pe:IsA("ParticleEmitter") then
+                        pe:Emit(1)
+                    end
+                end
+            end
+        end
+        
+        for _, pe in ipairs(p:GetDescendants()) do
+            if pe:IsA("ParticleEmitter") then
+                pe:Emit(0)
+            end
+        end
+    end
+end
+wait(0.1)
+local r = game.ReplicatedStorage
+local a = r:WaitForChild("Resources")
+local b = a:WaitForChild("FiveSeasonsFX")
+local m = b:WaitForChild("HandFire"):Clone()
+local plr = game.Players.LocalPlayer
+local char = plr.Character or plr.CharacterAdded:Wait()
+local torso = char:WaitForChild("Left Arm")
+
+m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
+m.Parent = workspace
+
+for _, p in ipairs(m:GetDescendants()) do
+    if p:IsA("BasePart") then
+        for _, a in ipairs(p:GetDescendants()) do
+            if a:IsA("Attachment") then
+                for _, pe in ipairs(a:GetDescendants()) do
+                    if pe:IsA("ParticleEmitter") then
+                        pe:Emit(1)
+                    end
+                end
+            end
+        end
+        
+        for _, pe in ipairs(p:GetDescendants()) do
+            if pe:IsA("ParticleEmitter") then
+                pe:Emit(0)
+            end
+        end
+    end
+end
+wait(0.1)
+local r = game.ReplicatedStorage
+local a = r:WaitForChild("Resources")
+local b = a:WaitForChild("FiveSeasonsFX")
+local m = b:WaitForChild("HandFire"):Clone()
+local plr = game.Players.LocalPlayer
+local char = plr.Character or plr.CharacterAdded:Wait()
+local torso = char:WaitForChild("Left Arm")
+
+m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
+m.Parent = workspace
+
+for _, p in ipairs(m:GetDescendants()) do
+    if p:IsA("BasePart") then
+        for _, a in ipairs(p:GetDescendants()) do
+            if a:IsA("Attachment") then
+                for _, pe in ipairs(a:GetDescendants()) do
+                    if pe:IsA("ParticleEmitter") then
+                        pe:Emit(1)
+                    end
+                end
+            end
+        end
+        
+        for _, pe in ipairs(p:GetDescendants()) do
+            if pe:IsA("ParticleEmitter") then
+                pe:Emit(0)
+            end
+        end
+    end
+end
+wait(0.1)
+local r = game.ReplicatedStorage
+local a = r:WaitForChild("Resources")
+local b = a:WaitForChild("FiveSeasonsFX")
+local m = b:WaitForChild("HandFire"):Clone()
+local plr = game.Players.LocalPlayer
+local char = plr.Character or plr.CharacterAdded:Wait()
+local torso = char:WaitForChild("Left Arm")
+
+m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
+m.Parent = workspace
+
+for _, p in ipairs(m:GetDescendants()) do
+    if p:IsA("BasePart") then
+        for _, a in ipairs(p:GetDescendants()) do
+            if a:IsA("Attachment") then
+                for _, pe in ipairs(a:GetDescendants()) do
+                    if pe:IsA("ParticleEmitter") then
+                        pe:Emit(1)
+                    end
+                end
+            end
+        end
+        
+        for _, pe in ipairs(p:GetDescendants()) do
+            if pe:IsA("ParticleEmitter") then
+                pe:Emit(0)
+            end
+        end
+    end
+end
+wait(0.1)
+local r = game.ReplicatedStorage
+local a = r:WaitForChild("Resources")
+local b = a:WaitForChild("FiveSeasonsFX")
+local m = b:WaitForChild("HandFire"):Clone()
+local plr = game.Players.LocalPlayer
+local char = plr.Character or plr.CharacterAdded:Wait()
+local torso = char:WaitForChild("Left Arm")
+
+m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
+m.Parent = workspace
+
+for _, p in ipairs(m:GetDescendants()) do
+    if p:IsA("BasePart") then
+        for _, a in ipairs(p:GetDescendants()) do
+            if a:IsA("Attachment") then
+                for _, pe in ipairs(a:GetDescendants()) do
+                    if pe:IsA("ParticleEmitter") then
+                        pe:Emit(1)
+                    end
+                end
+            end
+        end
+        
+        for _, pe in ipairs(p:GetDescendants()) do
+            if pe:IsA("ParticleEmitter") then
+                pe:Emit(0)
+            end
+        end
+    end
+end
+wait(0.1)
+local r = game.ReplicatedStorage
+local a = r:WaitForChild("Resources")
+local b = a:WaitForChild("FiveSeasonsFX")
+local m = b:WaitForChild("HandFire"):Clone()
+local plr = game.Players.LocalPlayer
+local char = plr.Character or plr.CharacterAdded:Wait()
+local torso = char:WaitForChild("Left Arm")
+
+m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
+m.Parent = workspace
+
+for _, p in ipairs(m:GetDescendants()) do
+    if p:IsA("BasePart") then
+        for _, a in ipairs(p:GetDescendants()) do
+            if a:IsA("Attachment") then
+                for _, pe in ipairs(a:GetDescendants()) do
+                    if pe:IsA("ParticleEmitter") then
+                        pe:Emit(1)
+                    end
+                end
+            end
+        end
+        
+        for _, pe in ipairs(p:GetDescendants()) do
+            if pe:IsA("ParticleEmitter") then
+                pe:Emit(0)
+            end
+        end
+    end
+end
+wait(0.1)
+local r = game.ReplicatedStorage
+local a = r:WaitForChild("Resources")
+local b = a:WaitForChild("FiveSeasonsFX")
+local m = b:WaitForChild("HandFire"):Clone()
+local plr = game.Players.LocalPlayer
+local char = plr.Character or plr.CharacterAdded:Wait()
+local torso = char:WaitForChild("Left Arm")
+
+m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
+m.Parent = workspace
+
+for _, p in ipairs(m:GetDescendants()) do
+    if p:IsA("BasePart") then
+        for _, a in ipairs(p:GetDescendants()) do
+            if a:IsA("Attachment") then
+                for _, pe in ipairs(a:GetDescendants()) do
+                    if pe:IsA("ParticleEmitter") then
+                        pe:Emit(1)
+                    end
+                end
+            end
+        end
+        
+        for _, pe in ipairs(p:GetDescendants()) do
+            if pe:IsA("ParticleEmitter") then
+                pe:Emit(0)
+            end
+        end
+    end
+end
+
+
 		spawn(function()
 			wait(1.2)
 			local Beam = RS.Resources.FiveSeasonsFX.CharFX.BeamFX:Clone()
@@ -515,7 +1044,7 @@ local function createFistModel()
     end
 
     -- Position the fist model high in the sky above the character
-    local skyHeight = 200 -- YOU can change this to whatever u want lol
+    local skyHeight = 10 -- YOU can change this to whatever u want lol
     fistModel:SetPrimaryPartCFrame(LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0, skyHeight, 0))
 
     -- Animate the fist model
@@ -803,529 +1332,4 @@ spawn(function()
             
             
             
-            local r = game.ReplicatedStorage
-local a = r:WaitForChild("Resources")
-local b = a:WaitForChild("FiveSeasonsFX")
-local m = b:WaitForChild("HandFire"):Clone()
-local plr = game.Players.LocalPlayer
-local char = plr.Character or plr.CharacterAdded:Wait()
-local torso = char:WaitForChild("Left Arm")
-
-m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
-m.Parent = workspace
-
-for _, p in ipairs(m:GetDescendants()) do
-    if p:IsA("BasePart") then
-        for _, a in ipairs(p:GetDescendants()) do
-            if a:IsA("Attachment") then
-                for _, pe in ipairs(a:GetDescendants()) do
-                    if pe:IsA("ParticleEmitter") then
-                        pe:Emit(1)
-                    end
-                end
-            end
-        end
-        
-        for _, pe in ipairs(p:GetDescendants()) do
-            if pe:IsA("ParticleEmitter") then
-                pe:Emit(0)
-            end
-        end
-    end
-end
-wait(0.1)
-local r = game.ReplicatedStorage
-local a = r:WaitForChild("Resources")
-local b = a:WaitForChild("FiveSeasonsFX")
-local m = b:WaitForChild("HandFire"):Clone()
-local plr = game.Players.LocalPlayer
-local char = plr.Character or plr.CharacterAdded:Wait()
-local torso = char:WaitForChild("Left Arm")
-
-m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
-m.Parent = workspace
-
-for _, p in ipairs(m:GetDescendants()) do
-    if p:IsA("BasePart") then
-        for _, a in ipairs(p:GetDescendants()) do
-            if a:IsA("Attachment") then
-                for _, pe in ipairs(a:GetDescendants()) do
-                    if pe:IsA("ParticleEmitter") then
-                        pe:Emit(1)
-                    end
-                end
-            end
-        end
-        
-        for _, pe in ipairs(p:GetDescendants()) do
-            if pe:IsA("ParticleEmitter") then
-                pe:Emit(0)
-            end
-        end
-    end
-end
-wait(0.1)
-local r = game.ReplicatedStorage
-local a = r:WaitForChild("Resources")
-local b = a:WaitForChild("FiveSeasonsFX")
-local m = b:WaitForChild("HandFire"):Clone()
-local plr = game.Players.LocalPlayer
-local char = plr.Character or plr.CharacterAdded:Wait()
-local torso = char:WaitForChild("Left Arm")
-
-m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
-m.Parent = workspace
-
-for _, p in ipairs(m:GetDescendants()) do
-    if p:IsA("BasePart") then
-        for _, a in ipairs(p:GetDescendants()) do
-            if a:IsA("Attachment") then
-                for _, pe in ipairs(a:GetDescendants()) do
-                    if pe:IsA("ParticleEmitter") then
-                        pe:Emit(1)
-                    end
-                end
-            end
-        end
-        
-        for _, pe in ipairs(p:GetDescendants()) do
-            if pe:IsA("ParticleEmitter") then
-                pe:Emit(0)
-            end
-        end
-    end
-end
-wait(0.1)
-local r = game.ReplicatedStorage
-local a = r:WaitForChild("Resources")
-local b = a:WaitForChild("FiveSeasonsFX")
-local m = b:WaitForChild("HandFire"):Clone()
-local plr = game.Players.LocalPlayer
-local char = plr.Character or plr.CharacterAdded:Wait()
-local torso = char:WaitForChild("Left Arm")
-
-m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
-m.Parent = workspace
-
-for _, p in ipairs(m:GetDescendants()) do
-    if p:IsA("BasePart") then
-        for _, a in ipairs(p:GetDescendants()) do
-            if a:IsA("Attachment") then
-                for _, pe in ipairs(a:GetDescendants()) do
-                    if pe:IsA("ParticleEmitter") then
-                        pe:Emit(1)
-                    end
-                end
-            end
-        end
-        
-        for _, pe in ipairs(p:GetDescendants()) do
-            if pe:IsA("ParticleEmitter") then
-                pe:Emit(0)
-            end
-        end
-    end
-end
-wait(0.1)
-local r = game.ReplicatedStorage
-local a = r:WaitForChild("Resources")
-local b = a:WaitForChild("FiveSeasonsFX")
-local m = b:WaitForChild("HandFire"):Clone()
-local plr = game.Players.LocalPlayer
-local char = plr.Character or plr.CharacterAdded:Wait()
-local torso = char:WaitForChild("Left Arm")
-
-m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
-m.Parent = workspace
-
-for _, p in ipairs(m:GetDescendants()) do
-    if p:IsA("BasePart") then
-        for _, a in ipairs(p:GetDescendants()) do
-            if a:IsA("Attachment") then
-                for _, pe in ipairs(a:GetDescendants()) do
-                    if pe:IsA("ParticleEmitter") then
-                        pe:Emit(1)
-                    end
-                end
-            end
-        end
-        
-        for _, pe in ipairs(p:GetDescendants()) do
-            if pe:IsA("ParticleEmitter") then
-                pe:Emit(0)
-            end
-        end
-    end
-end
-wait(0.1)
-local r = game.ReplicatedStorage
-local a = r:WaitForChild("Resources")
-local b = a:WaitForChild("FiveSeasonsFX")
-local m = b:WaitForChild("HandFire"):Clone()
-local plr = game.Players.LocalPlayer
-local char = plr.Character or plr.CharacterAdded:Wait()
-local torso = char:WaitForChild("Left Arm")
-
-m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
-m.Parent = workspace
-
-for _, p in ipairs(m:GetDescendants()) do
-    if p:IsA("BasePart") then
-        for _, a in ipairs(p:GetDescendants()) do
-            if a:IsA("Attachment") then
-                for _, pe in ipairs(a:GetDescendants()) do
-                    if pe:IsA("ParticleEmitter") then
-                        pe:Emit(1)
-                    end
-                end
-            end
-        end
-        
-        for _, pe in ipairs(p:GetDescendants()) do
-            if pe:IsA("ParticleEmitter") then
-                pe:Emit(0)
-            end
-        end
-    end
-end
-wait(0.1)
-local r = game.ReplicatedStorage
-local a = r:WaitForChild("Resources")
-local b = a:WaitForChild("FiveSeasonsFX")
-local m = b:WaitForChild("HandFire"):Clone()
-local plr = game.Players.LocalPlayer
-local char = plr.Character or plr.CharacterAdded:Wait()
-local torso = char:WaitForChild("Left Arm")
-
-m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
-m.Parent = workspace
-
-for _, p in ipairs(m:GetDescendants()) do
-    if p:IsA("BasePart") then
-        for _, a in ipairs(p:GetDescendants()) do
-            if a:IsA("Attachment") then
-                for _, pe in ipairs(a:GetDescendants()) do
-                    if pe:IsA("ParticleEmitter") then
-                        pe:Emit(1)
-                    end
-                end
-            end
-        end
-        
-        for _, pe in ipairs(p:GetDescendants()) do
-            if pe:IsA("ParticleEmitter") then
-                pe:Emit(0)
-            end
-        end
-    end
-end
-wait(0.1)
-local r = game.ReplicatedStorage
-local a = r:WaitForChild("Resources")
-local b = a:WaitForChild("FiveSeasonsFX")
-local m = b:WaitForChild("HandFire"):Clone()
-local plr = game.Players.LocalPlayer
-local char = plr.Character or plr.CharacterAdded:Wait()
-local torso = char:WaitForChild("Left Arm")
-
-m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
-m.Parent = workspace
-
-for _, p in ipairs(m:GetDescendants()) do
-    if p:IsA("BasePart") then
-        for _, a in ipairs(p:GetDescendants()) do
-            if a:IsA("Attachment") then
-                for _, pe in ipairs(a:GetDescendants()) do
-                    if pe:IsA("ParticleEmitter") then
-                        pe:Emit(1)
-                    end
-                end
-            end
-        end
-        
-        for _, pe in ipairs(p:GetDescendants()) do
-            if pe:IsA("ParticleEmitter") then
-                pe:Emit(0)
-            end
-        end
-    end
-end
-wait(0.1)
-local r = game.ReplicatedStorage
-local a = r:WaitForChild("Resources")
-local b = a:WaitForChild("FiveSeasonsFX")
-local m = b:WaitForChild("HandFire"):Clone()
-local plr = game.Players.LocalPlayer
-local char = plr.Character or plr.CharacterAdded:Wait()
-local torso = char:WaitForChild("Left Arm")
-
-m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
-m.Parent = workspace
-
-for _, p in ipairs(m:GetDescendants()) do
-    if p:IsA("BasePart") then
-        for _, a in ipairs(p:GetDescendants()) do
-            if a:IsA("Attachment") then
-                for _, pe in ipairs(a:GetDescendants()) do
-                    if pe:IsA("ParticleEmitter") then
-                        pe:Emit(1)
-                    end
-                end
-            end
-        end
-        
-        for _, pe in ipairs(p:GetDescendants()) do
-            if pe:IsA("ParticleEmitter") then
-                pe:Emit(0)
-            end
-        end
-    end
-end
-wait(0.1)
-local r = game.ReplicatedStorage
-local a = r:WaitForChild("Resources")
-local b = a:WaitForChild("FiveSeasonsFX")
-local m = b:WaitForChild("HandFire"):Clone()
-local plr = game.Players.LocalPlayer
-local char = plr.Character or plr.CharacterAdded:Wait()
-local torso = char:WaitForChild("Left Arm")
-
-m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
-m.Parent = workspace
-
-for _, p in ipairs(m:GetDescendants()) do
-    if p:IsA("BasePart") then
-        for _, a in ipairs(p:GetDescendants()) do
-            if a:IsA("Attachment") then
-                for _, pe in ipairs(a:GetDescendants()) do
-                    if pe:IsA("ParticleEmitter") then
-                        pe:Emit(1)
-                    end
-                end
-            end
-        end
-        
-        for _, pe in ipairs(p:GetDescendants()) do
-            if pe:IsA("ParticleEmitter") then
-                pe:Emit(0)
-            end
-        end
-    end
-end
-wait(0.1)
-local r = game.ReplicatedStorage
-local a = r:WaitForChild("Resources")
-local b = a:WaitForChild("FiveSeasonsFX")
-local m = b:WaitForChild("HandFire"):Clone()
-local plr = game.Players.LocalPlayer
-local char = plr.Character or plr.CharacterAdded:Wait()
-local torso = char:WaitForChild("Left Arm")
-
-m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
-m.Parent = workspace
-
-for _, p in ipairs(m:GetDescendants()) do
-    if p:IsA("BasePart") then
-        for _, a in ipairs(p:GetDescendants()) do
-            if a:IsA("Attachment") then
-                for _, pe in ipairs(a:GetDescendants()) do
-                    if pe:IsA("ParticleEmitter") then
-                        pe:Emit(1)
-                    end
-                end
-            end
-        end
-        
-        for _, pe in ipairs(p:GetDescendants()) do
-            if pe:IsA("ParticleEmitter") then
-                pe:Emit(0)
-            end
-        end
-    end
-end
-wait(0.1)
-local r = game.ReplicatedStorage
-local a = r:WaitForChild("Resources")
-local b = a:WaitForChild("FiveSeasonsFX")
-local m = b:WaitForChild("HandFire"):Clone()
-local plr = game.Players.LocalPlayer
-local char = plr.Character or plr.CharacterAdded:Wait()
-local torso = char:WaitForChild("Left Arm")
-
-m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
-m.Parent = workspace
-
-for _, p in ipairs(m:GetDescendants()) do
-    if p:IsA("BasePart") then
-        for _, a in ipairs(p:GetDescendants()) do
-            if a:IsA("Attachment") then
-                for _, pe in ipairs(a:GetDescendants()) do
-                    if pe:IsA("ParticleEmitter") then
-                        pe:Emit(1)
-                    end
-                end
-            end
-        end
-        
-        for _, pe in ipairs(p:GetDescendants()) do
-            if pe:IsA("ParticleEmitter") then
-                pe:Emit(0)
-            end
-        end
-    end
-end
-wait(0.1)
-local r = game.ReplicatedStorage
-local a = r:WaitForChild("Resources")
-local b = a:WaitForChild("FiveSeasonsFX")
-local m = b:WaitForChild("HandFire"):Clone()
-local plr = game.Players.LocalPlayer
-local char = plr.Character or plr.CharacterAdded:Wait()
-local torso = char:WaitForChild("Left Arm")
-
-m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
-m.Parent = workspace
-
-for _, p in ipairs(m:GetDescendants()) do
-    if p:IsA("BasePart") then
-        for _, a in ipairs(p:GetDescendants()) do
-            if a:IsA("Attachment") then
-                for _, pe in ipairs(a:GetDescendants()) do
-                    if pe:IsA("ParticleEmitter") then
-                        pe:Emit(1)
-                    end
-                end
-            end
-        end
-        
-        for _, pe in ipairs(p:GetDescendants()) do
-            if pe:IsA("ParticleEmitter") then
-                pe:Emit(0)
-            end
-        end
-    end
-end
-wait(0.1)
-local r = game.ReplicatedStorage
-local a = r:WaitForChild("Resources")
-local b = a:WaitForChild("FiveSeasonsFX")
-local m = b:WaitForChild("HandFire"):Clone()
-local plr = game.Players.LocalPlayer
-local char = plr.Character or plr.CharacterAdded:Wait()
-local torso = char:WaitForChild("Left Arm")
-
-m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
-m.Parent = workspace
-
-for _, p in ipairs(m:GetDescendants()) do
-    if p:IsA("BasePart") then
-        for _, a in ipairs(p:GetDescendants()) do
-            if a:IsA("Attachment") then
-                for _, pe in ipairs(a:GetDescendants()) do
-                    if pe:IsA("ParticleEmitter") then
-                        pe:Emit(1)
-                    end
-                end
-            end
-        end
-        
-        for _, pe in ipairs(p:GetDescendants()) do
-            if pe:IsA("ParticleEmitter") then
-                pe:Emit(0)
-            end
-        end
-    end
-end
-wait(0.1)
-local r = game.ReplicatedStorage
-local a = r:WaitForChild("Resources")
-local b = a:WaitForChild("FiveSeasonsFX")
-local m = b:WaitForChild("HandFire"):Clone()
-local plr = game.Players.LocalPlayer
-local char = plr.Character or plr.CharacterAdded:Wait()
-local torso = char:WaitForChild("Left Arm")
-
-m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
-m.Parent = workspace
-
-for _, p in ipairs(m:GetDescendants()) do
-    if p:IsA("BasePart") then
-        for _, a in ipairs(p:GetDescendants()) do
-            if a:IsA("Attachment") then
-                for _, pe in ipairs(a:GetDescendants()) do
-                    if pe:IsA("ParticleEmitter") then
-                        pe:Emit(1)
-                    end
-                end
-            end
-        end
-        
-        for _, pe in ipairs(p:GetDescendants()) do
-            if pe:IsA("ParticleEmitter") then
-                pe:Emit(0)
-            end
-        end
-    end
-end
-wait(0.1)
-local r = game.ReplicatedStorage
-local a = r:WaitForChild("Resources")
-local b = a:WaitForChild("FiveSeasonsFX")
-local m = b:WaitForChild("HandFire"):Clone()
-local plr = game.Players.LocalPlayer
-local char = plr.Character or plr.CharacterAdded:Wait()
-local torso = char:WaitForChild("Left Arm")
-
-m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
-m.Parent = workspace
-
-for _, p in ipairs(m:GetDescendants()) do
-    if p:IsA("BasePart") then
-        for _, a in ipairs(p:GetDescendants()) do
-            if a:IsA("Attachment") then
-                for _, pe in ipairs(a:GetDescendants()) do
-                    if pe:IsA("ParticleEmitter") then
-                        pe:Emit(1)
-                    end
-                end
-            end
-        end
-        
-        for _, pe in ipairs(p:GetDescendants()) do
-            if pe:IsA("ParticleEmitter") then
-                pe:Emit(0)
-            end
-        end
-    end
-end
-wait(0.1)
-local r = game.ReplicatedStorage
-local a = r:WaitForChild("Resources")
-local b = a:WaitForChild("FiveSeasonsFX")
-local m = b:WaitForChild("HandFire"):Clone()
-local plr = game.Players.LocalPlayer
-local char = plr.Character or plr.CharacterAdded:Wait()
-local torso = char:WaitForChild("Left Arm")
-
-m:SetPrimaryPartCFrame(CFrame.new(torso.Position) - Vector3.new(0,0, 0))
-m.Parent = workspace
-
-for _, p in ipairs(m:GetDescendants()) do
-    if p:IsA("BasePart") then
-        for _, a in ipairs(p:GetDescendants()) do
-            if a:IsA("Attachment") then
-                for _, pe in ipairs(a:GetDescendants()) do
-                    if pe:IsA("ParticleEmitter") then
-                        pe:Emit(1)
-                    end
-                end
-            end
-        end
-        
-        for _, pe in ipairs(p:GetDescendants()) do
-            if pe:IsA("ParticleEmitter") then
-                pe:Emit(0)
-            end
-        end
-    end
-end
+            
